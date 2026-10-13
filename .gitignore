@@ -1,0 +1,48 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env*
+!.env.example
+
+# Frontend dependencies and generated builds
+node_modules/
+dist/
+.vite/
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Tests and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Database files, dumps, and backups
+*.dump
+*.backup
+*.bak
+*.sqlite
+*.sqlite3
+
+# Python tooling
+.mypy_cache/
+.ruff_cache/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini

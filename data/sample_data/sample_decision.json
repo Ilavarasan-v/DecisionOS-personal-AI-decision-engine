@@ -1,0 +1,32 @@
+{
+  "user": {
+    "email": "demo@decisionos.app",
+    "full_name": "Demo User"
+  },
+  "preferences": [
+    { "category": "cost", "label": "Keep total cost low", "weight": 0.6 },
+    { "category": "quality", "label": "Prefer higher build/material quality", "weight": 0.8 },
+    { "category": "speed", "label": "Prefer faster delivery/turnaround", "weight": 0.3 }
+  ],
+  "decision": {
+    "title": "Which laptop should I buy?",
+    "description": "Need something reliable for both coursework and light gaming.",
+    "options": [
+      {
+        "name": "Laptop A — Budget",
+        "description": "Entry-level specs, ships next day.",
+        "attributes": { "cost": 0.9, "quality": 0.4, "speed": 0.9 }
+      },
+      {
+        "name": "Laptop B — Mid-range",
+        "description": "Balanced specs, 2-week lead time.",
+        "attributes": { "cost": 0.5, "quality": 0.7, "speed": 0.4 }
+      },
+      {
+        "name": "Laptop C — Premium",
+        "description": "Top-tier build quality, 4-week lead time.",
+        "attributes": { "cost": 0.2, "quality": 0.95, "speed": 0.2 }
+      }
+    ]
+  }
+}
